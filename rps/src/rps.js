@@ -1,4 +1,4 @@
-function Requests() {
+export function Requests() {
   this.play = (p1Hand, p2Hand, observer) => new PlayRequest(p1Hand, p2Hand, observer).process()
 }
 
@@ -30,5 +30,3 @@ function PlayRequest(p1Hand, p2Hand, observer) {
       p1Hand === 'scissors' && p2Hand === 'rock'
   }
 }
-
-module.exports = {Requests: Requests}

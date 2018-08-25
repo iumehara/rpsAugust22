@@ -6,6 +6,8 @@
     "src/"
   ],
   "devDependencies": {
+    "babel-cli": "latest",
+    "babel-preset-es2015": "latest",
     "jasmine": "latest"
   }
 }
