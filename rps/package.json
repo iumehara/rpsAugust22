@@ -1,10 +1,13 @@
 {
   "name": "rps",
   "version": "0.0.0",
-  "main": "src/rps.js",
+  "main": "bundled/compiledApp.js",
   "files": [
-    "src/"
+    "bundled/"
   ],
+  "scripts": {
+    "compile-app": "./node_modules/babel-cli/bin/babel.js ./src/rps.js --out-file ./bundled/compiledApp.js --presets=es2015"
+  },
   "devDependencies": {
     "babel-cli": "latest",
     "babel-preset-es2015": "latest",

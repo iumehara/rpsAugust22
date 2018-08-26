@@ -1,4 +1,4 @@
-const React = require('react')
+import React from 'react'
 
 class PlayForm extends React.Component {
   constructor() {
@@ -44,4 +44,4 @@ class PlayForm extends React.Component {
   }
 }
 
-module.exports = PlayForm
+export default PlayForm

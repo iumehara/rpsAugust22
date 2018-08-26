@@ -1,7 +1,7 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
-const PlayForm = require('./PlayForm')
-const {Requests} = require('rps/src/rps')
+import React from 'react'
+import ReactDOM from 'react-dom'
+import PlayForm from './PlayForm'
+import {Requests} from 'rps'
 
 class App extends React.Component {
   render(){

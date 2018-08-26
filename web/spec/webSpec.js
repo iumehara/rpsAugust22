@@ -1,7 +1,7 @@
-const ReactDOM = require('react-dom')
-const React = require('react')
-const ReactTestUtils = require('react-dom/test-utils')
-const PlayForm = require('../src/PlayForm')
+import ReactDOM from 'react-dom'
+import React from 'react'
+import ReactTestUtils from 'react-dom/test-utils'
+import PlayForm from '../src/PlayForm'
 
 describe('play form', function () {
   let domFixture
